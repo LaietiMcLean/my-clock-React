@@ -1,0 +1,20 @@
+h3 {
+    text-align: center;
+}
+
+.DigitalClock {
+  background-color: white;
+  border-radius: 10px 10px;
+  color: black;
+  display: flex;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+  justify-content: space-around;
+  letter-spacing: 0.2rem;
+  margin: 0 auto;
+  margin-top: 20px;
+  opacity: 70%;
+  padding: 10px;
+  text-align: center;
+  width: 15rem;
+}
