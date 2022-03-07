@@ -1,4 +1,4 @@
-.countdown {
+.stopwatch {
     background-color: white;
     border-radius: 10px 10px;
     color: black;
@@ -11,7 +11,19 @@
     margin: 0 auto;
     margin-top: 20px;
     opacity: 70%;
-    padding: 20px;
+    padding: 2px;
     text-align: center;
-    width: 15rem;
-  }
+    width: 20rem;
+}
+
+#btn {
+    margin-top: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: #4d194d;
+    border-radius: 5px 5px;
+    color: white;
+    padding: 8px;
+}

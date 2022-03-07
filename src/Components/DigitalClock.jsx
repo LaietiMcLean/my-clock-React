@@ -14,7 +14,7 @@ useEffect(() => {
 }, []);
 
     return (
-        <div className="DigitalClock">
+        <div className="digitalClock">
             <p>{clockState}</p>
         </div>
     )

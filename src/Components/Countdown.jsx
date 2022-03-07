@@ -7,8 +7,8 @@ export const Countdown = () => {
   const [time, setTime] = useState("");
 
   useEffect(()=>{
-    let countDownDate = new Date("March 6, 2022 21:20:00").getTime();
-    let x = setInterval(()=>{
+    let countDownDate = new Date("March 12, 2022 21:20:00").getTime();
+    let timer = setInterval(()=>{
         let now = new Date().getTime();
         let distance = countDownDate - now;
         let days = Math.floor(distance / (1000*60*60*24));
@@ -19,14 +19,14 @@ export const Countdown = () => {
         setTime(days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
 
         if(distance < 0) {
-            clearInterval(x);
+            clearInterval(timer);
             setTime("Countdown Finished")
         }
     },1000);
 },[]);
   
   return (
-    <div className="Countdown">
+    <div className="countdown">
     <p>{time}</p>
     </div>
   )
